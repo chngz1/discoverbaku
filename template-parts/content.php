@@ -21,6 +21,6 @@
         <?php the_excerpt(); ?>
     </div>
     <a class="font-bold text-sky-500" href="<?php the_permalink(); ?>">
-        <?php esc_html_e('Read more', 'wp-starter-theme'); ?>
+        <?php esc_html_e('Read more', 'discover-baku'); ?>
     </a>
 </article>

@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
 
 function wp_starter_theme_setup(): void
 {
-    load_theme_textdomain('wp-starter-theme', get_template_directory() . '/languages');
+    load_theme_textdomain('discover-baku', get_template_directory() . '/languages');
 
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
@@ -36,8 +36,8 @@ function wp_starter_theme_setup(): void
     add_theme_support('editor-styles');
 
     register_nav_menus([
-        'primary' => esc_html__('Primary Menu', 'wp-starter-theme'),
-        'footer'  => esc_html__('Footer Menu', 'wp-starter-theme'),
+        'primary' => esc_html__('Primary Menu', 'discover-baku'),
+        'footer'  => esc_html__('Footer Menu', 'discover-baku'),
     ]);
 }
 add_action('after_setup_theme', 'wp_starter_theme_setup');

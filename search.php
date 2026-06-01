@@ -12,7 +12,7 @@ get_header();
     <div class="site-container">
         <header class="mb-10">
             <h1 class="text-4xl md:text-6xl font-black tracking-tight">
-                <?php printf(esc_html__('Search results for: %s', 'wp-starter-theme'), '<span>' . esc_html(get_search_query()) . '</span>'); ?>
+                <?php printf(esc_html__('Search results for: %s', 'discover-baku'), '<span>' . esc_html(get_search_query()) . '</span>'); ?>
             </h1>
         </header>
 

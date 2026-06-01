@@ -26,7 +26,7 @@
             <?php endif; ?>
         </div>
 
-        <nav class="desktop-nav" aria-label="<?php esc_attr_e('Primary Menu', 'wp-starter-theme'); ?>">
+        <nav class="desktop-nav" aria-label="<?php esc_attr_e('Primary Menu', 'discover-baku'); ?>">
             <?php
             wp_nav_menu([
                 'theme_location' => 'primary',
