@@ -18,9 +18,9 @@ jobs:
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           REMOTE_HOST: ${{ secrets.SSH_HOST }}
+          REMOTE_PORT: ${{ secrets.SSH_PORT }}
           REMOTE_USER: ${{ secrets.SSH_USERNAME }}
           SOURCE: "./"
           TARGET: ${{ secrets.REMOTE_PATH }}
           ARGS: "-rlgoDzvc --delete"
           EXCLUDE: "/.git/, /.github/, /node_modules/, /.env"
-          
