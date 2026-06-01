@@ -410,3 +410,27 @@ input[type="submit"],
     margin-bottom: 0;
     font-size: 0.92rem;
 }
+
+
+.category-card {
+    padding: 26px;
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(47, 111, 143, 0.26);
+    box-shadow: var(--shadow);
+}
+
+.category-card, .benefit-card, .guide-card, .step-card, .route-card, .answer-grid article {
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: rgba(255, 255, 255, 0.78);
+    box-shadow: var(--shadow-soft);
+}
+
+
+.card-grid, .category-grid{
+    margin: 1.5rem 0;
+}
