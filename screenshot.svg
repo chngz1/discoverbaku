@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#07111F"/>
+  <circle cx="220" cy="160" r="260" fill="#00BFFF" opacity="0.16"/>
+  <rect x="120" y="120" width="960" height="660" rx="40" fill="#0F172A" stroke="#1E293B" stroke-width="2"/>
+  <text x="160" y="235" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="72" font-weight="800">WP Starter Theme</text>
+  <text x="160" y="310" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="32">Tailwind CSS + Alpine.js</text>
+  <rect x="160" y="380" width="240" height="64" rx="32" fill="#00BFFF"/>
+  <text x="207" y="422" fill="#03111D" font-family="Arial, sans-serif" font-size="24" font-weight="700">Start Building</text>
+</svg>
