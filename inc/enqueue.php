@@ -2,14 +2,14 @@
 /**
  * Enqueue scripts and styles.
  *
- * @package WP_Starter_Theme
+ * @package DISCOVER_BAKU_Theme
  */
 
 if (!defined('ABSPATH')) {
     exit;
 }
 
-function wp_starter_theme_scripts(): void
+function DISCOVER_BAKU_theme_scripts(): void
 {
     wp_enqueue_style(
         'discover-baku-tailwind',
@@ -20,9 +20,9 @@ function wp_starter_theme_scripts(): void
 
     wp_enqueue_style(
         'discover-baku-main',
-        WP_STARTER_THEME_URI . '/assets/css/main.css',
+        DISCOVER_BAKU_THEME_URI . '/assets/css/main.css',
         ['discover-baku-tailwind'],
-        WP_STARTER_THEME_VERSION
+        DISCOVER_BAKU_THEME_VERSION
     );
 
     wp_enqueue_script(
@@ -35,10 +35,10 @@ function wp_starter_theme_scripts(): void
 
     wp_enqueue_script(
         'discover-baku-main',
-        WP_STARTER_THEME_URI . '/assets/js/main.js',
+        DISCOVER_BAKU_THEME_URI . '/assets/js/main.js',
         ['discover-baku-alpine'],
-        WP_STARTER_THEME_VERSION,
+        DISCOVER_BAKU_THEME_VERSION,
         true
     );
 }
-add_action('wp_enqueue_scripts', 'wp_starter_theme_scripts');
+add_action('wp_enqueue_scripts', 'DISCOVER_BAKU_theme_scripts');

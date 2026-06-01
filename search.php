@@ -2,7 +2,7 @@
 /**
  * Search template.
  *
- * @package WP_Starter_Theme
+ * @package DISCOVER_BAKU_Theme
  */
 
 get_header();

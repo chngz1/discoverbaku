@@ -2,7 +2,7 @@
 /**
  * Empty state template.
  *
- * @package WP_Starter_Theme
+ * @package DISCOVER_BAKU_Theme
  */
 ?>
 

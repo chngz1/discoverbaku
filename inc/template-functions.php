@@ -2,14 +2,14 @@
 /**
  * Template helper functions.
  *
- * @package WP_Starter_Theme
+ * @package DISCOVER_BAKU_Theme
  */
 
 if (!defined('ABSPATH')) {
     exit;
 }
 
-function wp_starter_theme_posted_on(): void
+function DISCOVER_BAKU_theme_posted_on(): void
 {
     printf(
         '<span class="posted-on">%s</span>',

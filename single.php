@@ -2,7 +2,7 @@
 /**
  * Single post template.
  *
- * @package WP_Starter_Theme
+ * @package DISCOVER_BAKU_Theme
  */
 
 get_header();
@@ -12,7 +12,7 @@ get_header();
     <div class="site-container max-w-3xl">
         <?php while (have_posts()) : the_post(); ?>
             <article id="post-<?php the_ID(); ?>" <?php post_class('entry-content'); ?>>
-                <p class="text-slate-500 font-semibold mb-3"><?php wp_starter_theme_posted_on(); ?></p>
+                <p class="text-slate-500 font-semibold mb-3"><?php DISCOVER_BAKU_theme_posted_on(); ?></p>
                 <h1 class="text-4xl md:text-6xl mb-8"><?php the_title(); ?></h1>
                 <?php if (has_post_thumbnail()) : ?>
                     <div class="mb-8 rounded-3xl overflow-hidden">

@@ -2,14 +2,14 @@
 /**
  * Theme setup.
  *
- * @package WP_Starter_Theme
+ * @package DISCOVER_BAKU_Theme
  */
 
 if (!defined('ABSPATH')) {
     exit;
 }
 
-function wp_starter_theme_setup(): void
+function DISCOVER_BAKU_theme_setup(): void
 {
     load_theme_textdomain('discover-baku', get_template_directory() . '/languages');
 
@@ -40,10 +40,10 @@ function wp_starter_theme_setup(): void
         'footer'  => esc_html__('Footer Menu', 'discover-baku'),
     ]);
 }
-add_action('after_setup_theme', 'wp_starter_theme_setup');
+add_action('after_setup_theme', 'DISCOVER_BAKU_theme_setup');
 
-function wp_starter_theme_content_width(): void
+function DISCOVER_BAKU_theme_content_width(): void
 {
-    $GLOBALS['content_width'] = apply_filters('wp_starter_theme_content_width', 1200);
+    $GLOBALS['content_width'] = apply_filters('DISCOVER_BAKU_theme_content_width', 1200);
 }
-add_action('after_setup_theme', 'wp_starter_theme_content_width', 0);
+add_action('after_setup_theme', 'DISCOVER_BAKU_theme_content_width', 0);

@@ -2,7 +2,7 @@
 /**
  * WP Starter Theme functions and definitions.
  *
- * @package WP_Starter_Theme
+ * @package DISCOVER_BAKU_Theme
  * 
  * 
  */
@@ -13,13 +13,13 @@ if (!defined('ABSPATH')) {
 
 
 
-define('WP_STARTER_THEME_VERSION', '1.0.1.2');
-define('WP_STARTER_THEME_DIR', get_template_directory());
-define('WP_STARTER_THEME_URI', get_template_directory_uri());
+define('DISCOVER_BAKU_THEME_VERSION', '1.0.1.2');
+define('DISCOVER_BAKU_THEME_DIR', get_template_directory());
+define('DISCOVER_BAKU_THEME_URI', get_template_directory_uri());
 
-require_once WP_STARTER_THEME_DIR . '/inc/theme-setup.php';
-require_once WP_STARTER_THEME_DIR . '/inc/enqueue.php';
-require_once WP_STARTER_THEME_DIR . '/inc/template-functions.php';
+require_once DISCOVER_BAKU_THEME_DIR . '/inc/theme-setup.php';
+require_once DISCOVER_BAKU_THEME_DIR . '/inc/enqueue.php';
+require_once DISCOVER_BAKU_THEME_DIR . '/inc/template-functions.php';
 
 
 add_action('template_redirect', function () {
