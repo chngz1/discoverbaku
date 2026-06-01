@@ -413,19 +413,19 @@ input[type="submit"],
 
 
 .category-card {
-    padding: 26px;
+    padding: 26px !important;
     transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 
 .category-card:hover {
     transform: translateY(-5px);
-    border-color: rgba(47, 111, 143, 0.26);
+    border-color: rgba(47, 111, 143, 0.26) !important;
     box-shadow: var(--shadow);
 }
 
 .category-card, .benefit-card, .guide-card, .step-card, .route-card, .answer-grid article {
-    border: 1px solid var(--line);
-    border-radius: var(--radius-lg);
+    border: 1px solid var(--line) !important;
+    border-radius: var(--radius-lg) !important;
     background: rgba(255, 255, 255, 0.78);
     box-shadow: var(--shadow-soft);
 }
