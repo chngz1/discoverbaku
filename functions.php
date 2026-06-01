@@ -9,6 +9,9 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+GitHub Theme URI: https://github.com/chngz1/discoverbaku
+Primary Branch: main
+
 define('WP_STARTER_THEME_VERSION', '1.0.0.2.5.5');
 define('WP_STARTER_THEME_DIR', get_template_directory());
 define('WP_STARTER_THEME_URI', get_template_directory_uri());
