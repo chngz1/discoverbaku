@@ -13,7 +13,7 @@ if (!defined('ABSPATH')) {
 
 
 
-define('WP_STARTER_THEME_VERSION', '1.0.0.2.5.5');
+define('WP_STARTER_THEME_VERSION', '1.0.1.2');
 define('WP_STARTER_THEME_DIR', get_template_directory());
 define('WP_STARTER_THEME_URI', get_template_directory_uri());
 
