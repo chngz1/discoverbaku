@@ -287,12 +287,28 @@ h2{
   font-weight: 600;
 }
 
+.h2{
+      font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  line-height: var(--lh-display);
+  letter-spacing: var(--ls-display);
+  font-weight: 600;
+}
+
 h3{
   font-family: var(--font-display);
   font-size: var(--fs-h3);
   line-height: var(--lh-heading);
   letter-spacing: var(--ls-heading);
   font-weight: 600;
+}
+
+.h3{
+    font-family: var(--font-display);
+    font-size: var(--fs-h3);
+    line-height: var(--lh-heading);
+    letter-spacing: var(--ls-heading);
+    font-weight: 600;
 }
 
 .h4{
@@ -433,4 +449,38 @@ input[type="submit"],
 
 .card-grid, .category-grid{
     margin: 1.5rem 0;
+}
+
+.benefit-card {
+    padding: 24px !important;
+}
+
+
+.section-dark .eyebrow {
+    color: #efd3a1;
+}
+
+.section-dark h2, .section-dark h3 {
+    color: var(--white);
+}
+
+.section-dark p {
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.route-card {
+    padding: 26px !important;
+    background: rgba(255, 255, 255, 0.07) !important;
+    border-color: rgba(255, 255, 255, 0.13) !important;
+    box-shadow: none;
+}
+
+.route-number {
+    display: block;
+    margin-bottom: 28px;
+    color: #efd3a1;
+    font-family: var(--font-display);
+    font-size: 2.8rem;
+    line-height: 1;
+    opacity: 0.9;
 }
