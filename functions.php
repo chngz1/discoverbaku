@@ -3,14 +3,15 @@
  * WP Starter Theme functions and definitions.
  *
  * @package WP_Starter_Theme
+ * 
+ * 
  */
 
 if (!defined('ABSPATH')) {
     exit;
 }
 
-GitHub Theme URI: https://github.com/chngz1/discoverbaku
-Primary Branch: main
+
 
 define('WP_STARTER_THEME_VERSION', '1.0.0.2.5.5');
 define('WP_STARTER_THEME_DIR', get_template_directory());
