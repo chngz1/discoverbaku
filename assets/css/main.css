@@ -298,8 +298,8 @@ h3{
 .h4{
 	font-size: --fs-h4;
 	font-family: var(--font-ui);
-	line-height: var(--ls-heading);
-	letter-spacing: var(--lh-heading);
+	line-height: var(--lh-heading);
+	letter-spacing: var(--ls-heading);
 	font-weight: 600;
 }
 
