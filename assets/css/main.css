@@ -162,9 +162,9 @@ a:hover {
 
 
 .btn-text {
-    color: var(--caspian);
-    background: transparent;
-    border-color: rgba(47, 111, 143, 0.2);
+    color: var(--caspian) !important; 
+    background: transparent !important;
+    border-color: rgba(47, 111, 143, 0.2) !important;
 }
 
 .text-link {
