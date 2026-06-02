@@ -159,6 +159,14 @@ a:hover {
 	transform: translateY(-2px);
 }
 
+
+
+.btn-text {
+    color: var(--caspian);
+    background: transparent;
+    border-color: rgba(47, 111, 143, 0.2);
+}
+
 .text-link {
     display: inline-flex;
     align-items: center;
@@ -611,7 +619,7 @@ input[type="submit"],
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 22px 24px;
+  padding: 22px 24px !important;
   border: 0;
   background: transparent;
   color: var(--white);
@@ -654,4 +662,17 @@ input[type="submit"],
 
 .faq-item.is-open .faq-answer > p {
   padding-bottom: 22px;
+}
+
+
+.final-cta {
+    padding-top: clamp(76px, 9vw, 130px) !important;
+}
+
+.final-cta-inner {
+    padding: clamp(38px, 7vw, 82px) !important;
+    border-radius: 42px !important;
+    text-align: center !important;
+    background: radial-gradient(circle at top left, rgba(201, 151, 74, 0.24), transparent 22rem), radial-gradient(circle at bottom right, rgba(47, 111, 143, 0.2), transparent 24rem), linear-gradient(135deg, var(--sand), var(--white));
+    box-shadow: var(--shadow);
 }
