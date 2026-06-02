@@ -13,7 +13,7 @@ if (!defined('ABSPATH')) {
 
 
 
-define('DISCOVER_BAKU_THEME_VERSION', '1.0.1.9.5');
+define('DISCOVER_BAKU_THEME_VERSION', '1.0.1.9.6');
 define('DISCOVER_BAKU_THEME_DIR', get_template_directory());
 define('DISCOVER_BAKU_THEME_URI', get_template_directory_uri());
 
