@@ -439,10 +439,15 @@ input[type="submit"],
     box-shadow: var(--shadow);
 }
 
+.card-grid, .category-grid, .guide-grid, .steps-grid, .route-grid, .answer-grid {
+    display: grid !important;
+    gap: 18px !important;
+}
+
 .category-card, .benefit-card, .guide-card, .step-card, .route-card, .answer-grid article {
     border: 1px solid var(--line) !important;
     border-radius: var(--radius-lg) !important;
-    background: rgba(255, 255, 255, 0.78);
+    background: rgba(255, 255, 255, 0.78) !important;
     box-shadow: var(--shadow-soft) !important;
 }
 
@@ -512,4 +517,29 @@ input[type="submit"],
 .guide-card:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow);
+}
+
+
+.answer-panel {
+    padding: clamp(28px, 4vw, 54px);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-xl);
+    background: var(--white);
+    box-shadow: var(--shadow-soft);
+}
+
+.answer-grid article {
+    padding: 22px !important;
+    background: linear-gradient(180deg, rgba(244, 239, 231, 0.72), rgba(255, 255, 255, 0.88)) !important;
+    box-shadow: none;
+}
+
+.answer-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 620px) {
+    .trust-grid, .experience-grid, .guide-grid, .route-grid, .answer-grid {
+        grid-template-columns: 1fr;
+    }
 }
