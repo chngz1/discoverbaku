@@ -523,7 +523,7 @@ input[type="submit"],
 .answer-panel {
     padding: clamp(28px, 4vw, 54px) !important;
     border: 1px solid var(--line);
-    border-radius: var(--radius-xl);
+    border-radius: var(--radius-xl) !important;
     background: var(--white);
     box-shadow: var(--shadow-soft);
 }
@@ -542,4 +542,37 @@ input[type="submit"],
     .trust-grid, .experience-grid, .guide-grid, .route-grid, .answer-grid {
         grid-template-columns: 1fr;
     }
+}
+
+.steps-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 840px) {
+    .category-grid, .steps-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.step-card {
+    padding: 28px !important;
+    position: relative;
+}
+
+@media (max-width: 620px) {
+    .category-card, .benefit-card, .guide-card, .step-card, .route-card, .answer-grid article, .trust-item {
+        padding: 22px !important;
+    }
+}
+
+.step-number {
+    display: inline-grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    color: var(--white);
+    background: linear-gradient(135deg, var(--navy), var(--caspian));
+    font-weight: 900;
 }
